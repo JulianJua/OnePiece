@@ -5,7 +5,11 @@
       "Bash(npx prisma:*)",
       "Bash(openssl rand:*)",
       "Bash(npm run:*)",
-      "Bash(vercel:*)"
+      "Bash(vercel:*)",
+      "Read(/var/folders/8v/wwmh9g91307b_6fq1jc4dblr0000gn/T/TemporaryItems/NSIRD_screencaptureui_DkrELH/**)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []
