@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx prisma:*)",
+      "Bash(openssl rand:*)",
+      "Bash(npm run:*)",
+      "Bash(vercel:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

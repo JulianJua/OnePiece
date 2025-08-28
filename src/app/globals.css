@@ -1,0 +1,222 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f7fdf4;
+  --foreground: #192819;
+  --card: #ffffff;
+  --card-foreground: #223a22;
+  --primary: #355a35;
+  --primary-foreground: #f7fdf4;
+  --secondary: #81d062;
+  --secondary-foreground: #223a22;
+  --muted: #edfbe8;
+  --muted-foreground: #487332;
+  --accent: #6bc149;
+  --accent-foreground: #223a22;
+  --destructive: #ef4444;
+  --destructive-foreground: #fef2f2;
+  --border: #c2eeaf;
+  --input: #dbf6d1;
+  --ring: #355a35;
+  --radius: 0.5rem;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.mental-health-gradient {
+  background: linear-gradient(135deg, #f7fdf4 0%, #edfbe8 50%, #dbf6d1 100%);
+}
+
+.hunter-gradient {
+  background: linear-gradient(135deg, #355a35 0%, #2a4a2a 50%, #223a22 100%);
+}
+
+/* Calendar Styles */
+.mental-health-calendar {
+  --rbc-color: #355a35;
+  --rbc-bg-color: #f7fdf4;
+  --rbc-border-color: #c2eeaf;
+  --rbc-off-range-bg-color: #edfbe8;
+  --rbc-addon-bg: #dbf6d1;
+  --rbc-today-bg: #a1e085;
+  --rbc-event-bg: #6bc149;
+  --rbc-event-border: #559139;
+}
+
+.mental-health-calendar .rbc-calendar {
+  background-color: var(--rbc-bg-color);
+  border: 1px solid var(--rbc-border-color);
+  border-radius: 8px;
+}
+
+.mental-health-calendar .rbc-header {
+  background-color: var(--rbc-addon-bg);
+  color: var(--rbc-color);
+  font-weight: 600;
+  padding: 12px 8px;
+  border-bottom: 1px solid var(--rbc-border-color);
+}
+
+.mental-health-calendar .rbc-today {
+  background-color: var(--rbc-today-bg);
+}
+
+.mental-health-calendar .rbc-off-range-bg {
+  background-color: var(--rbc-off-range-bg-color);
+}
+
+.mental-health-calendar .rbc-event {
+  background-color: var(--rbc-event-bg);
+  border: 1px solid var(--rbc-event-border);
+  border-radius: 4px;
+  color: white;
+  font-size: 0.875rem;
+}
+
+.mental-health-calendar .rbc-event:hover {
+  opacity: 0.8;
+}
+
+.mental-health-calendar .rbc-btn-group button {
+  background-color: var(--rbc-addon-bg);
+  border: 1px solid var(--rbc-border-color);
+  color: var(--rbc-color);
+  padding: 8px 16px;
+  margin: 0 2px;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.mental-health-calendar .rbc-btn-group button:hover {
+  background-color: var(--rbc-event-bg);
+  color: white;
+}
+
+.mental-health-calendar .rbc-btn-group button.rbc-active {
+  background-color: var(--rbc-color);
+  color: white;
+}
+
+/* Gentle animations for mental health focus */
+@keyframes gentlePulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.gentle-pulse {
+  animation: gentlePulse 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.floating {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Soft focus states */
+.soft-focus:focus {
+  box-shadow: 0 0 0 3px rgba(53, 90, 53, 0.1);
+  border-color: rgba(53, 90, 53, 0.3);
+  outline: none;
+}
+
+/* Mental health friendly scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f7fdf4;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c2eeaf;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a1e085;
+}
+
+/* Peaceful transitions */
+* {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Calming button hover effects */
+.mindful-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.mindful-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.mindful-button:hover::before {
+  left: 100%;
+}
+
+/* Breathing animation for loading states */
+@keyframes breathe {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.breathing {
+  animation: breathe 2s ease-in-out infinite;
+}
+
+/* Soft shadows for depth */
+.mental-health-shadow {
+  box-shadow: 0 4px 20px rgba(53, 90, 53, 0.1);
+}
+
+.mental-health-shadow-hover:hover {
+  box-shadow: 0 8px 30px rgba(53, 90, 53, 0.15);
+}
+
+/* Gentle border radius for softer appearance */
+.rounded-gentle {
+  border-radius: 12px;
+}
+
+/* Mindful text selection */
+::selection {
+  background-color: rgba(161, 224, 133, 0.3);
+  color: #223a22;
+}
