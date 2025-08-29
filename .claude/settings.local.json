@@ -13,7 +13,10 @@
       "Read(/var/folders/8v/wwmh9g91307b_6fq1jc4dblr0000gn/T/TemporaryItems/NSIRD_screencaptureui_Tigppm/**)",
       "Bash(node:*)",
       "Bash(grep:*)",
-      "Read(/var/folders/8v/wwmh9g91307b_6fq1jc4dblr0000gn/T/TemporaryItems/NSIRD_screencaptureui_pNBUCq/**)"
+      "Read(/var/folders/8v/wwmh9g91307b_6fq1jc4dblr0000gn/T/TemporaryItems/NSIRD_screencaptureui_pNBUCq/**)",
+      "Read(/var/folders/8v/wwmh9g91307b_6fq1jc4dblr0000gn/T/TemporaryItems/NSIRD_screencaptureui_LvtOOf/**)",
+      "Read(/var/folders/8v/wwmh9g91307b_6fq1jc4dblr0000gn/T/TemporaryItems/NSIRD_screencaptureui_FnPJev/**)",
+      "Bash(npm --version)"
     ],
     "deny": [],
     "ask": []
