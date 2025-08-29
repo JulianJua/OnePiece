@@ -23,7 +23,8 @@
       "Bash(. \"$NVM_DIR/nvm.sh\")",
       "Bash(nvm install:*)",
       "Bash(nvm use:*)",
-      "Read(/var/folders/8v/wwmh9g91307b_6fq1jc4dblr0000gn/T/TemporaryItems/NSIRD_screencaptureui_idr0sy/**)"
+      "Read(/var/folders/8v/wwmh9g91307b_6fq1jc4dblr0000gn/T/TemporaryItems/NSIRD_screencaptureui_idr0sy/**)",
+      "Read(/var/folders/8v/wwmh9g91307b_6fq1jc4dblr0000gn/T/TemporaryItems/NSIRD_screencaptureui_QpoETV/**)"
     ],
     "deny": [],
     "ask": []
