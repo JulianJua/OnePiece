@@ -16,7 +16,13 @@
       "Read(/var/folders/8v/wwmh9g91307b_6fq1jc4dblr0000gn/T/TemporaryItems/NSIRD_screencaptureui_pNBUCq/**)",
       "Read(/var/folders/8v/wwmh9g91307b_6fq1jc4dblr0000gn/T/TemporaryItems/NSIRD_screencaptureui_LvtOOf/**)",
       "Read(/var/folders/8v/wwmh9g91307b_6fq1jc4dblr0000gn/T/TemporaryItems/NSIRD_screencaptureui_FnPJev/**)",
-      "Bash(npm --version)"
+      "Bash(npm --version)",
+      "Bash(command:*)",
+      "Bash(export NVM_DIR=\"$HOME/.nvm\")",
+      "Bash([ -s \"$NVM_DIR/nvm.sh\" ])",
+      "Bash(. \"$NVM_DIR/nvm.sh\")",
+      "Bash(nvm install:*)",
+      "Bash(nvm use:*)"
     ],
     "deny": [],
     "ask": []
